@@ -1,9 +1,5 @@
-arr=[[]for i in range(5)]
-
-arr[0].append((5,1))
-arr[0].append((4,1))
-arr[0].append((3,1))
-
-arr[0].sort()
-
-print(arr[0])
+arr[1,2,3]
+sum=0
+a=0
+sum+=arr[a+=1]
+print(arr)
