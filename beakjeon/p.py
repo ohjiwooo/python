@@ -1,9 +1,9 @@
-a=[]
 
-while True:
-    try:
-        b=int(input())
-        a.append(b)
-    except:
-        break
-print(a)  
+def aa(a):
+    a=1
+
+
+if __name__=='__main__':
+    a=3
+    aa(a)
+    print(a)
