@@ -22,7 +22,8 @@ if __name__=='__main__':
                 heapq.heappush(heap,(arr[v][i][1],arr[v][i][0]))
         while(True):
             if vis[heap[0][1]]==True : heapq.heappop(heap)
-            else : v=heap[0][1];answer += heap[0][0];heapq.heappop(heap);vis[v]=True;n+=1;break
+            else : v=heap[0][1];answer += heap[0][0]
+                   heapq.heappop(heap);vis[v]=True;n+=1;break
 
     print(answer)
 
