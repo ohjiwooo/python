@@ -1,9 +1,10 @@
-a=0;b=0;c=0
+from collections import deque
 
 
-def f():
-    global a,b,c
-    print(b)
 if __name__=='__main__':
-    print(1)
-    return 0
+    q=deque()
+    q.append(1)
+    print(q)
+    q.append(2)
+    print(q)
+    print(q[0])
